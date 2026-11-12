@@ -24,7 +24,13 @@ le Mac ; cela ne prouve pas le fonctionnement sur le Kelud réel.
 
 Les workflows du fork ont été activés ; les tests ont été déclenchés sur beta.
 Le jeton HTTPS a reçu de Yann la permission workflow nécessaire au push.
-Aucune release ni Pull Request vers upstream n’a été créée.
+Aucune release ni promotion main n’a été effectuée.
 
 En attente : essais contrôlés dans Home Assistant après autorisation.
-Aucune Pull Request vers upstream autorisée actuellement.
+Yann a ensuite autorisé la proposition au projet d’origine : PR #213 ouverte
+le 12 novembre 2026, depuis `fix-cloud-recovery` (commit `6db1e8a`) vers
+`gduteil/cozytouch:main` : https://github.com/gduteil/cozytouch/pull/213
+Cinq fichiers seulement : correctifs, tests et note de décision adaptée.
+Les fichiers de suivi du fork et le réglage CI beta sont exclus.
+L’accès des mainteneurs en écriture et aux secrets est désactivé.
+En attente : revue du mainteneur et contrôles propres à la Pull Request.

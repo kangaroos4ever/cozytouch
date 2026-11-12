@@ -33,3 +33,16 @@ suites Home Assistant (2026.8.3 et 2025.12.0) ont réussi :
 https://github.com/kangaroos4ever/cozytouch/actions/runs/43190751878
 Aucune installation locale, release, promotion main, utilisation du compte
 Cozytouch réel ni Pull Request vers upstream.
+
+## Proposition à upstream — 12 novembre 2026
+
+Source : demande suivante de Yann dans le même chat, autorisant la proposition
+au projet d’origine. Elle remplace l’interdiction temporaire précédente.
+PR ouverte : https://github.com/gduteil/cozytouch/pull/213
+Branche du fork : `fix-cloud-recovery`, commit `6db1e8a`, créée depuis
+upstream/main avec uniquement les correctifs, les tests et une note technique.
+Code et tests identiques à la bêta validée ; 25 scénarios isolés revérifiés.
+Les réglages de CI beta et documents propres au fork restent sur beta.
+L’option d’accès en écriture et aux secrets pour les mainteneurs est décochée.
+Aucune fusion, release, promotion main ni installation Home Assistant.
+Statut : proposition ouverte, revue du mainteneur attendue.

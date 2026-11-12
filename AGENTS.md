@@ -8,9 +8,11 @@ Lire aussi `CLAUDE.md`, `MEMORY.md`, `ETAT_PROJET.md` et `MEMOIRE_PARTAGEE.md`.
 - Développement dans `cozytouch-Beta`, branche `beta` ; `cozytouch` reste sur
   `main`. Préserver les changements locaux, récupérer origin avant travail,
   avancer uniquement par fast-forward, pousser chaque commit immédiatement.
-- Ne pas ouvrir de Pull Request ni proposer les modifications à upstream pour
-  le moment (demande de Yann du 12 novembre 2026). Ne pas promouvoir vers main
-  sans validation explicite.
+- Yann a autorisé le 12 novembre 2026 la proposition des corrections à
+  upstream : Pull Request https://github.com/gduteil/cozytouch/pull/213,
+  depuis origin/fix-cloud-recovery vers gduteil/main. Cette autorisation
+  remplace la suspension antérieure. Ne pas fusionner, promouvoir main ni
+  proposer d’autres changements sans autorisation correspondante.
 - Ne rien installer sur le Mac sans nouvelle autorisation. Les dépendances
   nécessaires aux tests peuvent être installées dans les runners GitHub Actions.
 - Ne pas lire le jeton GitHub ni l'inscrire dans les fichiers ou commandes.
