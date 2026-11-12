@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - "main"
+      - "beta"
   pull_request:
     # Not only `main`: this list filters on the *base* branch, so a pull
     # request stacked on another one -- the shape every dependent change here
