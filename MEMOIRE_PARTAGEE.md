@@ -23,3 +23,13 @@ authentification après timeout avec jeton valide et des exceptions JSON non
 maîtrisées. Les changements sont expliqués dans `docs/decisions.md`, section
 « Fork beta: recovery from cloud failures » ; tests dans
 `tests/test_cloud_recovery.py`. Aucun compte Cozytouch réel n'a été utilisé.
+
+## Validation du 12 novembre 2026
+
+Yann a ajouté la permission workflow au jeton HTTPS, permettant le push du
+commit `29c60ff` sur origin/beta. Les Actions du fork ont été activées, puis
+le workflow Tests lancé manuellement sur beta. Ruff, Pyright et les deux
+suites Home Assistant (2026.8.3 et 2025.12.0) ont réussi :
+https://github.com/kangaroos4ever/cozytouch/actions/runs/43190751878
+Aucune installation locale, release, promotion main, utilisation du compte
+Cozytouch réel ni Pull Request vers upstream.
